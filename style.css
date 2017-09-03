@@ -1,0 +1,52 @@
+
+body {
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+  background-image: url('http://hdkexamen.gu.se/digitalAssets/1639/1639271_therese_lindroth_foto_ekaterina_lukoshkova_1_970.jpg');
+  background-position: center top;
+  background-size: cover;
+}
+h1 {
+  font-family: 'Lato', sans-serif;
+  color: red;
+  font-size: 95px;
+}
+.search {
+  width: 100%;
+  position: relative
+}
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 2px solid #1a1aff;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+.searchTerm:focus{
+  color: #00B4CC;
+}
+.searchButton {
+  position: absolute;
+  right: -60px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid red;
+  background: red;
+  text-align: center;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
